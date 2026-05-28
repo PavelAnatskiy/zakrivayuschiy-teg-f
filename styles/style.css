@@ -13,7 +13,8 @@
 .page {
   min-inline-size: 320px;
   min-block-size: 100dvb;
-  font-family: var(--font-base), sans-serif;
+  font-family: var(--font-base);
+  font-variation-settings: "wght" var(--base-font-weight-normal);
   background-image:
     var(--gradient-bg-1), var(--gradient-bg-2), var(--gradient-bg-3);
   background-attachment: fixed;
@@ -72,7 +73,7 @@
 
 .card__title {
   font-family: var(--font-base);
-  font-weight: var(--base-font-weight-bold);
+  font-variation-settings: "wght" var(--base-font-weight-bold);
   font-size: 18px;
   color: #000;
   padding: 3px 10px;
@@ -109,7 +110,7 @@
 
 .card__text {
   font-family: var(--font-base);
-  font-weight: var(--base-font-weight-normal);
+  font-variation-settings: "wght" var(--base-font-weight-normal);
   font-size: 18px;
   line-height: 117%;
   color: #000;
