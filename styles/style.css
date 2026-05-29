@@ -40,7 +40,7 @@
 }
 
 .header__block-text {
-  height: 108px;
+  min-height: 108px;
   display: grid;
   align-content: space-between;
 }
@@ -167,7 +167,6 @@
   background-color: #fff;
   display: flex;
   gap: 8px;
-  width: 335px;
   min-height: 55px;
   margin: 0 auto;
   padding: 15px 18px;
@@ -215,35 +214,35 @@
   background-color: rgb(0 0 0 / 0.75);
 }
 
-.filter1 {
+.filter-blur {
   filter: blur(4px);
 }
 
-.filter2 {
+.filter-brightness {
   filter: brightness(1.5);
 }
 
-.filter3 {
+.filter-contrast {
   filter: contrast(200%);
 }
 
-.filter4 {
+.filter-grayscale {
   filter: grayscale(100%);
 }
 
-.filter5 {
+.filter-hue-rotate {
   filter: hue-rotate(90deg);
 }
 
-.filter6 {
+.filter-invert {
   filter: invert(75%);
 }
 
-.filter7 {
+.filter-sepia {
   filter: sepia(80%);
 }
 
-.filter8 {
+.filter-group {
   filter: contrast(150%) brightness(1.2) sepia(0.5) blur(1px);
 }
 
